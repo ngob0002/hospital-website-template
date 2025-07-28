@@ -98,8 +98,23 @@
 
 .hero-header {
     background-size: cover;
-    background: url(../img/Home.png) no-repeat fixed center;
+    background: url(../img/liver-stethoscope.png) no-repeat fixed center;
 }
+
+.service-icon {
+    background-color: #0d6efd; /* Bootstrap primary */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-icon i {
+    font-size: 30px;
+    color: white;
+}
+
 
 .service-item {
     position: relative;
